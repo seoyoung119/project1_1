@@ -9,31 +9,38 @@ public class WordManager {
     }
 
     public void start(){
+        wordCRUD.loadFile();
         while(true) {
             int menu = selectMenu();
-            if(menu == 0) break;
-            if(menu == 1){
+            if(menu == 0) {
+                System.out.print("프로그램 종료! 다음에 만나요 ~");
+                break;
+            }
+
+            else if(menu == 1){
                 wordCRUD.listAll();
             }
-            if(menu == 2){
+            else if(menu == 2){
+                wordCRUD.listAll();
+            }
+            else if(menu == 3){
+                wordCRUD.searchWord();
 
             }
-            if(menu == 3){
-
-            }
-            if(menu == 4){
+            else if(menu == 4){
                 wordCRUD.addWord();
 
             }
-            if(menu == 5){ //update
+            else if(menu == 5){ //update
                 wordCRUD.updateItem();
 
             }
-            if(menu == 6){ //delete
+            else if(menu == 6){ //delete
                 wordCRUD.deleteItem();
 
             }
-            if(menu == 7){
+            else if(menu == 7){
+                wordCRUD.saveFile();
 
             }
 
