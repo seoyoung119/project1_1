@@ -28,12 +28,11 @@
 
 + [단어 삭제] 단어 검색 후, 특정 단어를 삭제하는 기능은 잘 실행되는가?
 <img width="1470" alt="스크린샷 2023-09-16 오전 10 35 03" src="https://github.com/seoyoung119/project1_1/assets/130718248/8e27fb1e-3654-48cf-a15b-52d163d9b708">
-![Uploading 스크린샷 2023-09-16 오전 10.35.18.png…]()
+<img width="1470" alt="스크린샷 2023-09-16 오전 10 36 20" src="https://github.com/seoyoung119/project1_1/assets/130718248/a8a15d55-662a-4885-ae6c-97ceb73773ab">
 
 
 
 + [나가기] 실행을 종료하는 메뉴는 잘 실행되는가?
-
 ![image](https://github.com/seoyoung119/project1_1/assets/130718248/d6142a4b-93a7-4ae1-90cb-9ae0ad757031)
 
 
